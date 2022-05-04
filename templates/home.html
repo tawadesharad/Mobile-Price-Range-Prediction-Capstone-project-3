@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+          background-color: rgb(243, 244, 240);
+        }
+        
+        h1 {
+          color: maroon;
+          margin-left: 40px;
+        }
+        </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+     <center><h1>Mobile Price Range Prediction Model</h1></center> 
+    <form action="{% url 'result' %}">
+    {% csrf_token %}
+
+    
+    <center> <b>Battery Power:</b> <input type="text" required name="battery_power" align="left"> <br> <br></center> 
+    
+
+    <center> <b>Clock Speed:</b> <input type="text" required name="clock_speed" align="left"> <br> <br></center> 
+
+     <center> <b>Front Camera MP:</b> <input type="text" required name="fc"> <br> <br></center>
+      <center> <b>Internal Memory:</b> <input type="text" required name="int_memory"> <br> <br></center>
+       <center> <b>Mobile Depth in cm:</b> <input type="text" required name="m_dep"> <br> <br></center>
+     <center> <b>Mobile Weight:</b> <input type="text" required name="mobile_wt"> <br> <br></center>
+   <center> <b>No. of cores of processor:</b> <input type="text" required name="n_cores"> <br> <br></center>
+   <center>  <b>Primary Camera MP:</b>  <input type="text" required name="pc"> <br> <br></center>
+    <center>   <b>Pixel Resolution Height:</b>  <input type="text" required name="px_height"> <br> <br></center>
+    <center> <b>Pixel Resolution Width:</b>    <input type="text" required name="px_width"> <br> <br></center>
+    <center> <b>RAM in Mb:</b>    <input type="text" required name="ram"> <br> <br></center>
+    <center>  <b>Screen Height of mobile in cm:</b>   <input type="text" required name="sc_h"> <br> <br></center>
+    <center>  <b>Screen Width of mobile in cm:</b>   <input type="text" required name="sc_w"> <br> <br></center>
+    <center>  <b>Talk Time:</b>   <input type="text" required name="talk_time"> <br> <br></center>
+
+
+    
+   <center> <input style="background-color: rgb(249, 245, 245); color: maroon; height:50px; width:200px; font-size:larger; " type="submit" name="" value="submit" ></center> 
+
+</body>
+</html>
