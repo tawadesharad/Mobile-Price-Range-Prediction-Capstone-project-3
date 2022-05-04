@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-e=70ndti5k2s80&@17$oq#8^yj&h_mlo*^wv+fo0%vidmc5347
 
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://mobile-price-range-dec.herokuapp.com/']
 
 
 # Application definition

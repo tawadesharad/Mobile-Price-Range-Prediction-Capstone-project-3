@@ -1,3 +1,5 @@
+joblib
 django
 gunicorn
 django-heroku
+
