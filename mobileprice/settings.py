@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-e=70ndti5k2s80&@17$oq#8^yj&h_mlo*^wv+fo0%vidmc5347
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['mobile-price-range-dec.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['mobile-price-clf.herokuapp.com','127.0.0.1']
 
 
 # Application definition
@@ -48,7 +48,7 @@ MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
 
     'whitenoise.middleware.WhiteNoiseMiddleware',
-    
+
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
