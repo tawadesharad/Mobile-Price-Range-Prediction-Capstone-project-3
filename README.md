@@ -25,6 +25,6 @@ In the competitive mobile phone market companies want to understand sales data o
 * Wifi - Has wifi or not
 * Price_range - This is the target variable with value of 0(low cost), 1(medium cost), 2(high cost) and 3(very high cost).
 
-Deployment of Model using Django and Heroku.
+# Deployment of Model using Django and Heroku.
 
-Link:- https://mobile-price-clf.herokuapp.com/
+**Link:-** https://mobile-price-clf.herokuapp.com/
