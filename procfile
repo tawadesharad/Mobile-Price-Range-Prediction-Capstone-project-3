@@ -1,1 +1,1 @@
-web: gunicorn mobileprice.wsgi
+web: gunicorn mobileprice.wsgi --log-file -
